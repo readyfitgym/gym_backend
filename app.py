@@ -11,7 +11,7 @@ from pydantic import BaseModel, EmailStr, Field, ValidationError
 ###############################################################################
 DB_OPTS = dict(
     host=os.getenv("MYSQL_HOST", "mysql-499fde8-readyfitgym-1ce8.c.aivencloud.com"),
-    port=int(os.getenv("MYSQL_PORT", 14585)),
+    port=int(os.getenv("MYSQL_PORT", 28734)),
     user=os.getenv("MYSQL_USER", "avnadmin"),
     password=os.getenv("MYSQL_PASSWORD", "AVNS_mePxM_vVe-qTy3gflAf"),
     db=os.getenv("MYSQL_DB", "defaultdb"),
